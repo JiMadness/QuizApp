@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="500.0" style="-fx-background-color: #2d2d2d;" stylesheets="@Theme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuestionViewer">
+   <children>
+      <TextField fx:id="fillInBlank" disable="true" layoutX="146.0" layoutY="149.0" AnchorPane.leftAnchor="146.0" AnchorPane.rightAnchor="148.0" AnchorPane.topAnchor="149.0" />
+      <TextArea fx:id="shortAnswer" disable="true" layoutX="74.0" layoutY="186.0" prefHeight="200.0" prefWidth="350.0" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="186.0" />
+      <GridPane fx:id="multipleChoice" disable="true" layoutY="386.0" prefHeight="60.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="386.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <RadioButton fx:id="choice1" mnemonicParsing="false" style="-fx-text-fill: white;" text="Choice 1" />
+            <RadioButton fx:id="choice2" mnemonicParsing="false" style="-fx-text-fill: white;" text="Choice 2" GridPane.columnIndex="1" />
+            <RadioButton fx:id="choice3" mnemonicParsing="false" style="-fx-text-fill: white;" text="Choice 3" GridPane.rowIndex="1" />
+            <RadioButton fx:id="choice4" mnemonicParsing="false" style="-fx-text-fill: white;" text="Choice 4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <ButtonBar layoutX="259.0" layoutY="446.0" prefHeight="40.0" prefWidth="227.0" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="259.0" AnchorPane.rightAnchor="14.0">
+        <buttons>
+          <Button defaultButton="true" mnemonicParsing="false" onAction="#submitPressed" text="Submit" />
+            <Button cancelButton="true" layoutX="118.0" layoutY="14.0" mnemonicParsing="false" onAction="#clearPressed" text="Clear" />
+        </buttons>
+      </ButtonBar>
+      <Label layoutX="224.0" layoutY="128.0" styleClass="label-bright" text="Answer" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="226.0" AnchorPane.topAnchor="128.0" />
+      <Label fx:id="questionStatement" alignment="CENTER" layoutX="-1.0" layoutY="14.0" mouseTransparent="true" prefHeight="105.0" prefWidth="500.0" text="Question Statement." textAlignment="CENTER" wrapText="true" />
+      <ChoiceBox fx:id="trueFalse" disable="true" layoutX="60.0" layoutY="446.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

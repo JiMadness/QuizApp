@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quizzes>
+    <Quiz>
+        <instructor>gamal</instructor>
+        <questions>
+            <correctAnswer>london</correctAnswer>
+            <mark>0</mark>
+            <questionStatement>What is the capital of Britain?</questionStatement>
+            <questionType>1</questionType>
+        </questions>
+        <questions>
+            <correctAnswer>london</correctAnswer>
+            <mark>1</mark>
+            <questionStatement>The capital of Britain is .....</questionStatement>
+            <questionType>2</questionType>
+        </questions>
+        <questions>
+            <correctAnswer>False</correctAnswer>
+            <mark>0</mark>
+            <questionStatement>New York is in Egypt.</questionStatement>
+            <questionType>3</questionType>
+        </questions>
+        <questions>
+            <answersList>Egypt</answersList>
+            <answersList>England</answersList>
+            <answersList>US</answersList>
+            <answersList>Germany</answersList>
+            <correctAnswer>Egypt</correctAnswer>
+            <mark>0</mark>
+            <questionStatement>Alexandria is in ...</questionStatement>
+            <questionType>0</questionType>
+        </questions>
+        <quizName>new quize</quizName>
+        <submissions>2</submissions>
+    </Quiz>
+    <Quiz>
+        <instructor>M</instructor>
+        <questions>
+            <correctAnswer>1</correctAnswer>
+            <mark>1</mark>
+            <questionStatement>1</questionStatement>
+            <questionType>2</questionType>
+        </questions>
+        <questions>
+            <answersList>1</answersList>
+            <answersList>2</answersList>
+            <answersList>3</answersList>
+            <answersList>4</answersList>
+            <correctAnswer>2</correctAnswer>
+            <mark>1</mark>
+            <questionStatement>2</questionStatement>
+            <questionType>0</questionType>
+        </questions>
+        <questions>
+            <correctAnswer>True</correctAnswer>
+            <mark>1</mark>
+            <questionStatement>3</questionStatement>
+            <questionType>3</questionType>
+        </questions>
+        <questions>
+            <correctAnswer>4</correctAnswer>
+            <mark>1</mark>
+            <questionStatement>4</questionStatement>
+            <questionType>1</questionType>
+        </questions>
+        <quizName>QUIZ</quizName>
+        <submissions>2</submissions>
+    </Quiz>
+</Quizzes>
